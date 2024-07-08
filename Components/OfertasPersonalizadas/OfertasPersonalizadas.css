@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: inherit;
+}
+
+.divOfertasPai{
+    height: 90vh;
+    width: 100%;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: space-around;
+    background-color:#F5F5F5;
+}
+
+.divOfertasFIlho1{
+    font-family: "inter", sans-serif;
+    font-weight: 300;  
+    justify-content: space-between;
+    width: 35vw;
+    height: 45vh;
+    margin-right: 40vw;
+    margin-top: 15vh;
+}
+
+.p1DivOfertasFilho1{
+    color: #F6AA1C;
+    font-size: 1.2rem;
+}
+
+.h1DivOfertasFilho1{
+    margin-top: 2vh;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+.p2DivOfertasFilho1{
+    margin-top: 5vh;
+    font-size: 1.2rem;
+}
+
+.btnOfertas{
+    margin-top: 3vh;
+    background-color: #C92071;
+    color: white;
+    height: 5vh;
+    width: 10vw;
+    border: none;
+    border-radius: 8px;
+}
+
+.OrnamentOferta{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 80vw;
+}
+
+.SneakersOferta{
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: -7vh;
+}
+
+.CarouselDotsOfertas{
+    width: 4.5vw;
+    height: 1.5vh;
+    position: absolute;
+    margin-top: 80vh;
+}

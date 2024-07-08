@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.bodyProdutoEscolhido {
+    background-color: rgb(249, 248, 254);
+}
+
+.divCardPEPage{
+    display: flex;
+    width: 80vw;
+    gap: 1vw;
+    height: 60vh;
+}
+
+.divTitleCardPE{
+    display: flex;
+    height: 8vh;
+    width: 80vw;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "inter", sans-serif;
+}
+
+.divPaiProdutoEscolhido {
+    display: flex;
+}
+
+.divTitleProdutoEscolhido{
+    margin-right: 30vw;
+    margin-top: 5vh;
+}
+
+.titleProdutoEscolhido {
+    font-family: "inter", sans-serif;
+    color: #474747;
+}
+
+.divImgGrande {
+    width: 45vw;
+    height: 76vh;
+    background-color: rgba(226, 227, 255, 1);
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;   
+}
+
+.tenisMaior{
+
+    transform: rotate(0deg);
+}
+
+.divPaiPequenasImgs{
+    display: flex;
+    width: 45vw;
+    height: 12vh;
+    gap: 2vw;
+    margin-top: 2vh;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tenisMenor{
+    width: 90%;
+}
+
+.divPequenasImg1s{
+    background-color: rgba(226, 227, 255, 1) ;
+}
+
+.divPequenasImgs2{
+    background-color: rgba(255, 232, 188, 1);
+}
+
+.divPequenasImgs3{
+    background-color: rgba(255, 192, 188, 1);
+}
+
+.divPequenasImgs4{
+    background-color:rgba(222, 198, 153, 1);
+}
+
+.divPequenasImgs5{
+    background-color: rgba(232, 223, 207, 1);
+}
+
+.divFilhoProdutoEscolhido2{
+    height: 76vh;
+    width: 30vw;
+    margin-left: 2vw;
+    font-family: "inter", sans-serif;
+}
+
+.titleDivPE2{
+    font-size: 30px;
+
+}
+
+.pDivPE2{
+    font-size: 10px;
+}
+
+.miniDivAvaliacao{
+    display: flex;
+    height: 2vh;
+    width: 23vw;
+    font-size: 12px;
+    color: #8f8f8f;
+}
+
+.miniDivAvaliacao2{
+    display: flex;
+    height: 5vh;
+    width: 23vw;
+}
+
+.cifrao{
+    font-size: 10px;
+    color: #474747;
+    margin-top: 1.5vh;
+}
+
+.h1miniDivAvaliacao2{
+    color: #474747;
+}
+
+.pminiDivAvaliacao2{
+    font-size: 10px;
+    color: #8f8f8f;
+    margin-top: 1.5vh;
+}
+
+.miniDivAvaliacao3{
+    height: 12vh;
+    width: 25vw;
+    font-size: 13px;
+}
+
+.p1miniDivAvaliacao2{
+    color: #989899;
+}
+
+.p2miniDivAvaliacao2{
+    color: #474747;
+    margin-top: 2vh;
+}
+
+.tamanho1{
+    height: 10vh;
+    width: 15vw;
+}
+
+.ptamanho1{
+    font-size: 13px;
+    color: #989899;
+}
+
+.divTamanhoBtns{
+    margin-top: 2vh;
+    height: 5vh;
+    width: 15vw;
+    display:flex;
+    justify-content: space-around;
+    margin-left: -0.4vw;
+}
+
+.btnSize{
+    width: 2.5vw;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color:#C92071 ;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btnSize:hover{
+    background-color: #f9f8fe;
+    color: #474747;
+}
+
+.tamanho2{
+    margin-top: 2vh;
+    height: 10vh;
+    width: 12vw;
+
+}
+
+.ptamanho2{
+    font-size: 13px;
+    color: #989899;
+}
+
+.divbtnSizeColors{
+    margin-top: 2vh;
+    height: 5vh;
+    width: 12vw;
+    display:flex;
+    justify-content: space-around;
+    margin-left: -0.4vw;
+}
+
+.btnSizeColor1{
+    border-radius: 50%;
+    width: 1.5vw;
+    height: 3vh;
+    border: none;
+    background-color: #C92071;
+    cursor: pointer;
+}
+
+.btnSizeColor2{
+    border-radius: 50%;
+    width: 1.5vw;
+    height: 3vh;
+    border: none;
+    background-color: #6eeeff;
+    cursor: pointer;
+}
+
+.btnSizeColor3{
+    border-radius: 50%;
+    width: 1.5vw;
+    height: 3vh;
+    border: none;
+    background-color: #5d5d5d;
+    cursor: pointer;
+}
+
+.btnSizeColor4{
+    border-radius: 50%;
+    width: 1.5vw;
+    height: 3vh;
+    border: none;
+    background-color: #6d70b7;
+    cursor: pointer;
+}
+
+.divBtnBuy{
+    height: 7vh;
+    width: 15vw;
+    margin-top: 2vh;
+}
+
+.btnBuy{
+    height: 6vh;
+    width: 11vw;
+    color: white;
+    background-color: #ffb31f; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

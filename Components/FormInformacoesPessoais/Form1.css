@@ -1,0 +1,28 @@
+.formBox1{
+    width: 45vw;
+    height: 70vh;
+    padding: 3vh 3vw;
+    margin-top: 2vh;
+    margin-left: 25vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    
+    .pForm1{
+    
+        font-family: "inter", sans-serif;
+        font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    
+    
+    }
+    
+    .hrForm{
+        color: #CCCCCC;
+        width:  45vw;
+    }

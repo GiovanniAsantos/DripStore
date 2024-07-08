@@ -1,0 +1,26 @@
+.CategoriasCD{
+    height: 50vh;
+    background-color: rgb(250, 248, 248);
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.titleCategoriasCD{
+    color: #1f1f1f;
+    font-family: "inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1px;
+}
+
+.divItensCategoriasCD{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}

@@ -1,0 +1,109 @@
+.card-tenis {
+    height: 45vh;
+    width: 20vw;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.075);
+    border-radius: 10px;
+  }
+
+#tenis1 {
+    background-image: url(../../../assets/SneakersCardPEA.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+.cardPEASubtitle{
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    width: 5vw;
+    display: flex;
+    padding: 10px 15px;
+    margin: 25px 25px;
+    gap: 10px;
+    border-radius: 29px;
+    background: #eeff018e;
+}
+
+#port-ten-card {
+    display: block;
+    align-items: flex-start;
+  }
+
+.cardPEATitle{
+    color: #8f8f8f;
+    font-family: "inter", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+}
+
+.cardPEASubtitle2{
+    color: #474747;
+    font-family: "inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.75px;
+}
+
+#de {
+    color:  #8F8F8F;
+  font-family: "inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; 
+  letter-spacing: 0.75px;
+  text-decoration: line-through;
+  }
+  
+#por {
+    color:  #1F1F1F;
+  font-family: "inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px; 
+  letter-spacing: 0.75px;
+  }
+
+.preco {
+    gap: 1vw;
+    display: flex;
+  }
+
+.contador{
+  width: 2vw;
+  height: 4vh;
+  border: none;
+  border-radius: 4px;
+  background-color: #C92071;
+  color:  white;
+  font-family: "inter", sans-serif;
+  cursor: pointer;
+}
+
+.numeroContador{
+  color:  #8f8f8f;
+  font-family: "inter", sans-serif;
+  margin-top: 1vh;
+}
+
+.linkProdutoEscolhido{
+  text-decoration: none;
+  color: #1F1F1F;
+}
+
+.verCarrinho{
+  color: white;
+  background-color: #C92071;
+  border-radius: 4px;
+  border: none;
+  width: 4vw;
+  font-size: 12px;
+  height: 4vh;
+  cursor: pointer;
+}
+

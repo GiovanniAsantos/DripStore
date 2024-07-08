@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containerFilterMain{
+    border-radius: 5px;
+  background-color: white;
+  height: 94vh;
+  width: 20vw;
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: 3vh;
+  font-family: "inter", sans-serif;
+}
+
+.divInternaFilterMain{
+    padding: 3vh 1.5vw;
+}
+
+.titleFilterMain{
+    font-size: 0.9rem;
+}
+
+.hrFilterMain{
+    margin: 3vh 0;
+}
+
+.subtitleFilterMain{
+    font-size: 0.8rem;
+}
+
+.optnFilterMain{
+    display: flex;
+  margin: 2vh 0;
+  font-size: 0.8rem;
+}
+
+.chackboxFilterMain{
+    height: 18px;
+    width: 18px;
+    border: 1px solid;
+    margin: 0 1vw 0 0;
+    cursor: pointer;
+}
+
+.pFilterMain{
+    cursor: normal;
+}

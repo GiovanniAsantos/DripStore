@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: inherit;
+}
+
+.Footer{
+    
+    width: 100%;
+    height: 45vh;
+    background-color: #1F1F1F;
+    color: white;
+    align-items: center;
+    padding: 5vw;
+    overflow-y: hidden;
+}
+
+.divFooterPai{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divFooterFilho1{
+    height: 30vh;
+    width: 20vw;
+    justify-content: space-evenly;
+    display: block;   
+    font-family: "inter", sans-serif;
+    font-weight: 300;
+}
+
+.pDivFilho1{
+    margin-top: 5vh;
+}
+
+.redesDivFilho1{
+    margin-top: 5vh;
+}
+
+.divFooterFilho2{
+    gap: 3.5vh;
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    height: 40vh;
+    font-family: "inter", sans-serif;
+    font-weight: 300;
+    margin-left: 5vw;
+}
+
+.divFooterFilho3{
+    gap: 3.5vh;
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    height: 40vh;
+    font-family: "inter", sans-serif;
+    font-weight: 300;
+
+}
+
+.divFooterFilho4{
+    gap: 3.5vh;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: 40vh;
+    font-family: "inter", sans-serif;
+    font-weight: 300;
+    margin-right: 6vw;
+}
+
+.hrFooter{
+    width: 80vw;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.pFinalFooter{
+    text-align: center;
+    margin-top: 5vh;
+    margin-right: 3vw;
+}

@@ -1,0 +1,53 @@
+*{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.bodyProdutosFilterPage{
+    height: 320vh;
+    width: 100%;
+    background-color: rgb(249, 248, 254);
+    align-items: center;
+    justify-content: center;
+}
+
+.divPaiFIlterPage1{
+    align-self: center;
+    align-items: center;
+    width: 85vw;
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 8vw; 
+    margin-top: 6vh;
+}
+
+.divProdutosFilterPage1{
+    display: flex;
+    font-size: 0.8rem;
+    font-family: "inter", sans-serif;
+}
+
+.pFilterPageTipo1{
+    font-size: 0.8rem;
+    font-family: "inter", sans-serif;
+}
+
+.pFilterPageTipo2{
+    color: #474747;
+    margin: 0  0.5vw;
+    font-size: 0.8rem;
+    font-family: "inter", sans-serif;
+    margin-left: 1vw;
+}
+
+.divPaiFilterPage2{
+    width: 62vw;
+    margin-left: 31vw;
+    margin-top: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1vw;
+}

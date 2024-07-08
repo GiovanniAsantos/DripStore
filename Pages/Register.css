@@ -1,0 +1,51 @@
+.registerBody{
+    background-color: #f9f8fe;
+    height: 230vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.titleRegister{
+    margin-left: 25vw;
+    margin-top: 8vh;
+    font-weight: bold;
+    color: black;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.registerCheckbox{
+    display: flex;
+    width: 52vw;
+    margin-left: 25vw;
+    margin-top: 5vh;
+    font-size: 13px;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #474747;
+}
+
+.pCheckbox{
+    margin-left: 1vw;
+}
+
+#boxCheck{
+    width:2.5vw;
+    background-color: #C92071;
+    cursor: pointer;
+}
+
+.btnLogin{
+    height: 6vh;
+    background-color: #C92071;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-top: 5vh;
+    cursor: pointer;
+}

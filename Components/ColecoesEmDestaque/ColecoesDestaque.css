@@ -1,0 +1,42 @@
+.cardDestaque{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    background-color: rgb(250, 248, 248);
+}
+
+.titleCardDestaque{
+    color: #474747;
+    font-family: "inter", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    padding-left: 7vw;
+    padding-top: 5vh;
+}
+
+.divCardDestaque{
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    gap: 1vw;
+}
+
+  
+#card1 {
+    background-image: url(../../assets/CamisetaStarwars.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  #card2 {
+    background-image: url(../../assets/BlackSneakers.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  #card3 {
+    background-image: url(../../assets/Headphone.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  }

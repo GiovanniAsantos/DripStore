@@ -1,0 +1,55 @@
+.cardHomePage{
+    display: flex;
+    flex-direction: row;
+    height: 34vh;
+    width: 27.5vw;
+    align-self: center;
+    background-color: #D8E3F2;
+    border-radius: 8px;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3.5vh;
+    padding-left: 2vw;
+}
+
+.titleCardHomePage{
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+    width: 5vw;
+  display: inline-flex;
+  padding: 5px 15px;
+  gap: 10px;
+  border-radius: 29px;
+  background-color: #eeff018e;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.descriptionCardHomePage{
+    color: #1f1f1f;
+    font-family: "inter", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1px;
+    width: 16vw;
+}
+
+.btnCardHomePage{
+    color: #c92071;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  height: 6vh;
+  width: 12vw;
+  font-size: 16px;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}

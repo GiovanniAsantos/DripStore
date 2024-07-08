@@ -1,0 +1,62 @@
+.formBox3{
+    position: absolute;
+    width: 30vw;
+    height: 65vh;
+    margin-right: 45vw;
+    margin-top: -55vh;
+    padding: 3vh 3vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.titleForm3{
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    align-self: self-start;
+}
+
+.pForm3{
+    color: rgba(71, 71, 71, 1);
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    align-self: self-start;
+}
+
+.aForm3{
+    color: rgba(71, 71, 71, 1);
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    align-self: self-start;
+}
+
+.btnForm3{
+    height: 6vh;
+    background-color: #C92071;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 50vw;
+    cursor: pointer; 
+}
+
+.divBaseForm3{
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.imgForm3{
+    cursor: pointer;
+}

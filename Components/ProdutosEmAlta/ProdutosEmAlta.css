@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  #root{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(250, 248, 248);
+}
+
+
+.produtosEmAlta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 125vh;
+    background-color: rgb(250, 248, 248);
+}
+
+.titleProdutosEmAlta{
+    display: flex;
+    height: 8vh;
+    width: 83vw;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "inter", sans-serif;
+}
+
+.h3TitleProdutosEmAlta{
+    color: #1f1f1f;
+    font-family: "inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1px;
+    margin-bottom: 5vh;
+}
+
+.verTodosProdutos{
+    display: flex;
+    gap: 0.5vw;
+}
+
+.pVerTodosProdutos{
+    color: #c92071;
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    cursor: pointer;
+}
+
+.cardTenisProdutos{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.linkProdutos{
+    text-decoration: none;
+    color: #c92071;
+    width: 8vw;
+    display: flex;
+}
